@@ -1,1 +1,192 @@
-{"0": "Apple___Apple_scab", "1": "Apple___Black_rot", "2": "Apple___Cedar_apple_rust", "3": "Apple___healthy", "4": "Blueberry___healthy", "5": "Cherry_(including_sour)___Powdery_mildew", "6": "Cherry_(including_sour)___healthy", "7": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot", "8": "Corn_(maize)___Common_rust_", "9": "Corn_(maize)___Northern_Leaf_Blight", "10": "Corn_(maize)___healthy", "11": "Grape___Black_rot", "12": "Grape___Esca_(Black_Measles)", "13": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)", "14": "Grape___healthy", "15": "Orange___Haunglongbing_(Citrus_greening)", "16": "Peach___Bacterial_spot", "17": "Peach___healthy", "18": "Pepper,_bell___Bacterial_spot", "19": "Pepper,_bell___healthy", "20": "Potato___Early_blight", "21": "Potato___Late_blight", "22": "Potato___healthy", "23": "Raspberry___healthy", "24": "Soybean___healthy", "25": "Squash___Powdery_mildew", "26": "Strawberry___Leaf_scorch", "27": "Strawberry___healthy", "28": "Tomato___Bacterial_spot", "29": "Tomato___Early_blight", "30": "Tomato___Late_blight", "31": "Tomato___Leaf_Mold", "32": "Tomato___Septoria_leaf_spot", "33": "Tomato___Spider_mites Two-spotted_spider_mite", "34": "Tomato___Target_Spot", "35": "Tomato___Tomato_Yellow_Leaf_Curl_Virus", "36": "Tomato___Tomato_mosaic_virus", "37": "Tomato___healthy"}
+{
+  "0": {
+    "name": "Apple___Apple_scab",
+    "cause": "Fungal (Venturia inaequalis). Thrives in cool, wet spring weather.",
+    "remedy": "Rake and destroy fallen leaves in autumn. Prune trees to increase airflow. Apply preventative fungicides (like Captan or copper-based sprays) as buds break in spring."
+  },
+  "1": {
+    "name": "Apple___Black_rot",
+    "cause": "Fungal (Botryosphaeria obtusa). Infects dead tissue, often entering through wounds.",
+    "remedy": "Prune out dead or diseased wood. Remove all mummified fruit from the tree and ground. Apply protective fungicides."
+  },
+  "2": {
+    "name": "Apple___Cedar_apple_rust",
+    "cause": "Fungal (Gymnosporangium juniperi-virginianae). Requires two hosts: apple trees and eastern red cedar trees.",
+    "remedy": "Remove nearby red cedar trees if possible. Apply protective fungicides to the apple tree in early spring before spores blow in."
+  },
+  "3": {
+    "name": "Apple___healthy",
+    "cause": "None.",
+    "remedy": "Keep up the good work! Maintain proper watering and pruning schedules."
+  },
+  "4": {
+    "name": "Blueberry___healthy",
+    "cause": "None.",
+    "remedy": "Keep up the good work! Maintain proper watering and pruning schedules."
+  },
+  "5": {
+    "name": "Cherry_(including_sour)___Powdery_mildew",
+    "cause": "Fungal (Podosphaera clandestina). Favored by high humidity and warm temperatures.",
+    "remedy": "Prune to improve air circulation. Apply sulfur-based or potassium bicarbonate sprays. Avoid overhead watering."
+  },
+  "6": {
+    "name": "Cherry_(including_sour)___healthy",
+    "cause": "None.",
+    "remedy": "Keep up the good work! Maintain proper watering and pruning schedules."
+  },
+  "7": {
+    "name": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+    "cause": "Fungal (Cercospora zeae-maydis). Spores survive the winter in corn debris left on the soil.",
+    "remedy": "Practice crop rotation. Till the soil to bury infected crop residue. Plant disease-resistant hybrids."
+  },
+  "8": {
+    "name": "Corn_(maize)___Common_rust_",
+    "cause": "Fungal (Puccinia sorghi). Spores blow in from warmer climates. Thrives in high humidity and cool temperatures.",
+    "remedy": "Plant rust-resistant varieties. Apply foliar fungicides early in the season if symptoms appear."
+  },
+  "9": {
+    "name": "Corn_(maize)___Northern_Leaf_Blight",
+    "cause": "Fungal (Exserohilum turcicum). Overwinters in corn residue.",
+    "remedy": "Crop rotation (1-2 years away from corn). Deep plowing to bury debris. Fungicide applications in severe cases."
+  },
+  "10": {
+    "name": "Corn_(maize)___healthy",
+    "cause": "None.",
+    "remedy": "Keep up the good work! Maintain proper watering and soil health."
+  },
+  "11": {
+    "name": "Grape___Black_rot",
+    "cause": "Fungal (Guignardia bidwellii). Flourishes in warm, humid weather.",
+    "remedy": "Remove all mummified grapes. Ensure good canopy management for airflow. Apply preventative fungicides from early spring through mid-summer."
+  },
+  "12": {
+    "name": "Grape___Esca_(Black_Measles)",
+    "cause": "Complex of various fungi entering through pruning wounds.",
+    "remedy": "There is no cure once infected. Prevent by avoiding pruning during wet weather and treating pruning wounds with protective pastes. Remove severely infected vines."
+  },
+  "13": {
+    "name": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+    "cause": "Fungal (Pseudocercospora vitis). Occurs late in the season in wet conditions.",
+    "remedy": "Usually does not require aggressive chemical treatment. Improve airflow and spray Bordeaux mixture (copper sulfate) if necessary."
+  },
+  "14": {
+    "name": "Grape___healthy",
+    "cause": "None.",
+    "remedy": "Keep up the good work! Maintain proper canopy management."
+  },
+  "15": {
+    "name": "Orange___Haunglongbing_(Citrus_greening)",
+    "cause": "Bacterial (Candidatus Liberibacter asiaticus). Spread by a tiny insect called the Asian citrus psyllid.",
+    "remedy": "No cure. This is a fatal disease. Infected trees must be uprooted and destroyed immediately to prevent the bugs from spreading it to neighboring healthy trees."
+  },
+  "16": {
+    "name": "Peach___Bacterial_spot",
+    "cause": "Bacterial (Xanthomonas campestris). Spread by splashing rain and overhead irrigation.",
+    "remedy": "Avoid overhead watering. Apply copper-based bactericides. Maintain tree vigor and prune well for airflow."
+  },
+  "17": {
+    "name": "Peach___healthy",
+    "cause": "None.",
+    "remedy": "Keep up the good work! Maintain proper watering and pruning schedules."
+  },
+  "18": {
+    "name": "Pepper,_bell___Bacterial_spot",
+    "cause": "Bacterial (Xanthomonas campestris). Spread by splashing rain and overhead irrigation.",
+    "remedy": "Avoid overhead watering. Apply copper-based bactericides. Practice crop rotation."
+  },
+  "19": {
+    "name": "Pepper,_bell___healthy",
+    "cause": "None.",
+    "remedy": "Keep up the good work! Maintain proper watering and spacing."
+  },
+  "20": {
+    "name": "Potato___Early_blight",
+    "cause": "Fungal (Alternaria solani). Soil-borne and hits older, stressed leaves first.",
+    "remedy": "Practice a 2-3 year crop rotation. Water at the base of the plant to keep leaves dry. Apply copper or chlorothalonil fungicides."
+  },
+  "21": {
+    "name": "Potato___Late_blight",
+    "cause": "Water mold (Phytophthora infestans). Extremely fast-spreading in cool, wet weather.",
+    "remedy": "Pull and destroy infected plants immediately (do not compost). Apply protective copper fungicides before infection occurs."
+  },
+  "22": {
+    "name": "Potato___healthy",
+    "cause": "None.",
+    "remedy": "Keep up the good work! Maintain proper crop rotation and soil health."
+  },
+  "23": {
+    "name": "Raspberry___healthy",
+    "cause": "None.",
+    "remedy": "Keep up the good work! Maintain proper watering and pruning schedules."
+  },
+  "24": {
+    "name": "Soybean___healthy",
+    "cause": "None.",
+    "remedy": "Keep up the good work! Maintain proper watering and soil health."
+  },
+  "25": {
+    "name": "Squash___Powdery_mildew",
+    "cause": "Fungal. Thrives in dry, warm climates with high humidity around the plant canopy.",
+    "remedy": "Space plants adequately. Apply neem oil, sulfur sprays, or a baking soda/water mixture at the first sign of white spots."
+  },
+  "26": {
+    "name": "Strawberry___Leaf_scorch",
+    "cause": "Fungal (Diplocarpon earlianum). Overwinters in dead leaves and spreads via splashing water.",
+    "remedy": "Remove and destroy infected foliage. Ensure good soil drainage and weed control to allow the plants to dry out quickly."
+  },
+  "27": {
+    "name": "Strawberry___healthy",
+    "cause": "None.",
+    "remedy": "Keep up the good work! Maintain proper watering and spacing."
+  },
+  "28": {
+    "name": "Tomato___Bacterial_spot",
+    "cause": "Bacterial (Xanthomonas campestris). Spread by splashing rain and overhead irrigation.",
+    "remedy": "Avoid overhead watering. Apply copper-based bactericides. Practice crop rotation."
+  },
+  "29": {
+    "name": "Tomato___Early_blight",
+    "cause": "Fungal (Alternaria solani). Soil-borne and hits older, stressed leaves first.",
+    "remedy": "Practice a 2-3 year crop rotation. Water at the base of the plant to keep leaves dry. Apply copper or chlorothalonil fungicides."
+  },
+  "30": {
+    "name": "Tomato___Late_blight",
+    "cause": "Water mold (Phytophthora infestans). Extremely fast-spreading in cool, wet weather.",
+    "remedy": "Pull and destroy infected plants immediately (do not compost). Apply protective copper fungicides before infection occurs."
+  },
+  "31": {
+    "name": "Tomato___Leaf_Mold",
+    "cause": "Fungal (Passalora fulva). Primarily an issue in high-tunnel or greenhouse environments with poor ventilation.",
+    "remedy": "Increase ventilation, reduce humidity, and avoid wetting the foliage. Apply protective fungicides."
+  },
+  "32": {
+    "name": "Tomato___Septoria_leaf_spot",
+    "cause": "Fungal (Septoria lycopersici). Spores splash up from the soil onto the lowest leaves.",
+    "remedy": "Apply a thick layer of mulch to prevent soil splashing. Remove the lowest branches so leaves don't touch the dirt. Use fungicidal sprays."
+  },
+  "33": {
+    "name": "Tomato___Spider_mites Two-spotted_spider_mite",
+    "cause": "Pest. Microscopic arachnids that suck sap from the leaves, thriving in hot, dry conditions.",
+    "remedy": "Spray plants with a strong blast of water to dislodge them. Use insecticidal soap, neem oil, or introduce natural predators like ladybugs."
+  },
+  "34": {
+    "name": "Tomato___Target_Spot",
+    "cause": "Fungal (Corynespora cassiicola).",
+    "remedy": "Improve airflow, avoid overhead irrigation, and apply appropriate broad-spectrum fungicides."
+  },
+  "35": {
+    "name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "cause": "Viral. Transmitted by silverleaf whiteflies.",
+    "remedy": "No cure. Pull and destroy infected plants. Manage whitefly populations using insecticidal soaps or reflective mulches."
+  },
+  "36": {
+    "name": "Tomato___Tomato_mosaic_virus",
+    "cause": "Viral. Highly contagious; mechanically transmitted by human hands, tools, or even tobacco products.",
+    "remedy": "No cure. Destroy infected plants. Wash hands with soap thoroughly, sterilize garden tools, and avoid smoking near tomato plants."
+  },
+  "37": {
+    "name": "Tomato___healthy",
+    "cause": "None.",
+    "remedy": "Keep up the good work! Maintain proper watering and spacing."
+  }
+}

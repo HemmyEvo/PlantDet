@@ -4,6 +4,7 @@ import numpy as np
 import json
 from PIL import Image
 
+# --- 1. UI Styling & Configuration ---
 st.set_page_config(page_title="Plant Disease AI", layout="centered")
 
 st.markdown("""
@@ -24,18 +25,19 @@ st.markdown("""
 st.title("🌿 Plant Disease AI")
 st.write("Upload an image of a leaf to instantly identify potential diseases.")
 
+# --- 2. Load the Master JSON Data ---
 @st.cache_data
-def load_class_names():
+def load_class_data():
     try:
         with open('class_names.json', 'r') as f:
             classes = json.load(f)
-            # JSON keys are always strings, convert them back to integers
+            # Convert string number keys ("0") back to integers (0)
             return {int(k): v for k, v in classes.items()}
     except FileNotFoundError:
         st.error("Could not find 'class_names.json'. Please ensure it's in the same folder.")
         return {}
 
-CLASS_NAMES = load_class_names()
+CLASS_DATA = load_class_data()
 
 # --- 3. Load the Model ---
 @st.cache_resource
@@ -62,12 +64,26 @@ if uploaded_file is not None:
         predictions = model.predict(img_array)
         predicted_index = int(np.argmax(predictions, axis=1)[0])
         
-        # Get the string name from our loaded JSON dictionary
-        disease_name = CLASS_NAMES.get(predicted_index, f"Unknown Class Index: {predicted_index}")
-        
         # --- 6. Display Results ---
         st.write("---")
         st.subheader("Result:")
         
-        clean_name = disease_name.replace("___", " - ").replace("_", " ")
-        st.success(f"**{clean_name}**")
+        # Look up the dictionary entry using the predicted number (e.g., 24)
+        if predicted_index in CLASS_DATA:
+            disease_info = CLASS_DATA[predicted_index]
+            disease_name = disease_info["name"]
+            
+            # Format the title nicely
+            clean_name = disease_name.replace("___", " - ").replace("_", " ")
+            st.success(f"**{clean_name}**")
+            
+            # Show Cause and Remedy
+            if "healthy" in disease_name.lower():
+                st.balloons()
+                st.info(f"**Advice:** {disease_info['remedy']}")
+            else:
+                st.warning(f"**Likely Cause:** {disease_info['cause']}")
+                st.info(f"**Remedy:** {disease_info['remedy']}")
+                
+        else:
+            st.error(f"Unknown Class Index Predicted: {predicted_index}")
